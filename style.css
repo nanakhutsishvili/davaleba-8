@@ -1,0 +1,302 @@
+*,::after,::before {
+    box-sizing: border-box;
+}
+
+body  {display: flex;
+       justify-content: center;
+       margin: 0px;
+       padding: 0px;}
+
+@font-face {font-family: 'Dela Gothic One';
+    src: url(./dela.ttf);}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./dela.ttf);}
+
+.main   {width: 100%;
+    display: flex;
+    justify-content: center;}
+
+.main2  {width: 1050px;
+    width: 100%;
+    background: #F6F5F4;}
+
+.div1  {
+    background: #F6F5F4;
+    display: flex;
+    align-items:center;}
+
+.div2  {background: #F6F5F4;
+    height: 740px; 
+    display: flex;
+    justify-content: center;}
+
+.e-course  {margin-bottom: 30px;}
+
+.learning  {margin-bottom: 30px;}
+
+.your      {margin-bottom: 30px;}
+
+.spans1   { width: 1180px;
+        align-items: center;
+        background: #F6F5F4;
+        border-bottom: 1px solid red;
+        height: 84px;
+        display: flex;
+    }
+
+
+.glob   {width: 50%;}
+.LS      {display: flex;
+         width: 100px; }
+
+.span1  { font-family: 'Dela Gothic One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20.8609px;
+        line-height: 100%;
+        letter-spacing: -0.02em;
+        color: #000000; }
+
+.span1, .span2, .span3, .span4,
+ select  {margin-right: 30px ;}
+
+.span2   {margin-left: 30px ;}
+
+.span5   {font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+    padding-top: 10px;
+    padding-right: 10px;}
+
+.sign-up  {display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 90px;
+    height: 36px;
+    background: #2B788B;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-top: 9px ;
+    padding-left: 18px;
+    text-align: center; }
+
+.div21   {display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px; 
+    width: 480px;
+    height: 510.78px;
+    margin-top: 95px}
+
+.e-course  {width: 100%;
+    height: 16px;  
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;  
+    color: #2B788B;}
+
+.learning  {font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 120%; 
+    letter-spacing: -0.04em;
+    color: #000000;}
+
+.about  {display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 22px;
+    gap: 19px;
+    width: 165px;
+    height: 44px;
+    background: #C3DCE3;
+    border-radius: 100px;}
+
+.z6002  {width: 360px;
+        height: 60px;
+        display: flex;
+        justify-content: center;}
+
+.z600   {margin-right: 30px ;}
+
+.z  {width:  24px;
+    height:  30px;}
+
+.img600  {width: 129px;
+    height: 40px;}
+
+.underZ {width: 100%;
+    height: 22px; 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%; 
+    letter-spacing: -0.04em;
+    color: #585858;
+    margin-left: 24px;}
+
+.plus   {width: 100px;
+    margin-left: 30px;
+    float: right;}
+
+.plusicon  {width: 30px;
+        Height: 18px;}
+
+.under2 {font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #585858;}
+
+.div22  {margin-top: 95px;
+    margin-bottom: 135px;}
+
+.boy  {width: 614px;
+    height: 510px;
+    }
+
+
+.div3  {background: #FFFFFF;
+    height: 600px; 
+    display: flex;
+    justify-content: center;}
+
+.div32   {display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px; 
+        width: 550px;
+        height: 510.78px;}
+
+.learn {font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 120%; 
+    letter-spacing: -0.04em;
+    color: #000000 }
+    
+.make  {margin-bottom: 30px;}
+
+.div31, .div32  {padding-top: 77.5px;}
+
+.girl   {width: 580px;
+    height: 445px;}
+
+.photos  {width: 324.05px;
+    height: 145.5px;}
+
+    .div4  {background: #F6F5F4;
+        height: 500px; 
+        display: flex;
+        justify-content: center;}
+    
+    .div41   {display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px; 
+            width: 550px;
+            height: 510.78px;}
+    
+    .learn {font-family: 'Dela Gothic One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 120%; 
+        letter-spacing: -0.04em;
+        color: #000000 }
+        
+    .make  {margin-bottom: 30px;}
+
+    .div41, .div42  {padding-top: 26.03px;}
+
+    .girl2   {width: 580px;
+        height: 473.97px;}
+    
+    .photos  {width: 324.05px;
+        height: 145.5px;}
+
+    .butt  {display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 14px 22px;
+            gap: 19px;
+            width: 165px;
+            height: 44px;
+            background: #C3DCE3;
+            border-radius: 100px;}
+
+.div5  {background: #FFFFFF;
+                height: 600px; 
+                display: flex;
+                justify-content: center;}
+            
+.div52   {display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    padding: 0px; 
+                    width: 550px;
+                    height: 510.78px;}
+            
+.Watch {font-family: 'Dela Gothic One';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 56px;
+                line-height: 120%; 
+                letter-spacing: -0.04em;
+                color: #000000 }
+                
+.Save  {margin-bottom: 30px;}
+            
+.div51, .div52  {padding-top: 77.5px;}
+            
+.girlandboy   {width: 680px;
+    height: 409.25px;}
+
+.photos  {width: 324.05px;
+        height: 145.5px;}
+
+.div6   {display: flex;
+         justify-content: center;}
+
+.io     {display: flex;
+         align-items: center;}
+
+.icons   {margin-right:auto}
+
+.icon1    {margin-left: 30px;}
+
+.icon2    {margin-left: 30px;}
+
+.icon3    {margin-left: 30px;}
+
+.lastdiv   {display: inline-block; 
+    margin-left:auto}
+
+.last {float:inline-end;}
+
+.rr   {display: flex;
+    align-items: center;}
+
+.x    {margin-right:auto}
+
+.y    {margin-left:auto}
+
+  
