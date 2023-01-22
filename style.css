@@ -88,6 +88,9 @@ body  {display: flex;
     padding-left: 18px;
     text-align: center; }
 
+.two   {width: 54px;
+        height: 40px;}
+
 .div21   {display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -154,8 +157,8 @@ body  {display: flex;
     margin-left: 30px;
     float: right;}
 
-.plusicon  {width: 30px;
-        Height: 18px;}
+.plusicon  {width: 18px;
+        Height: 30px;}
 
 .under2 {font-family: 'Montserrat';
     font-style: normal;
@@ -163,7 +166,9 @@ body  {display: flex;
     font-size: 16px;
     line-height: 140%;
     letter-spacing: -0.04em;
-    color: #585858;}
+    color: #585858;
+    width: 92px;
+    height: 22px;}
 
 .div22  {margin-top: 95px;
     margin-bottom: 135px;}
