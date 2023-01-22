@@ -18,14 +18,13 @@ body  {display: flex;
     display: flex;
     justify-content: center;}
 
-.main2  {width: 1050px;
-    width: 100%;
-    background: #F6F5F4;}
+.main2 
 
-.div1  {
+.div1  {height: 88px;
     background: #F6F5F4;
     display: flex;
-    align-items:center;}
+    align-items:center;
+    border-bottom: 1px  solid gray;}
 
 .div2  {background: #F6F5F4;
     height: 740px; 
@@ -41,15 +40,16 @@ body  {display: flex;
 .spans1   { width: 1180px;
         align-items: center;
         background: #F6F5F4;
-        border-bottom: 1px solid red;
         height: 84px;
         display: flex;
     }
 
 
 .glob   {width: 50%;}
+
 .LS      {display: flex;
-         width: 100px; }
+          align-items: center; 
+          gap: 20px;}
 
 .span1  { font-family: 'Dela Gothic One';
         font-style: normal;
@@ -57,7 +57,8 @@ body  {display: flex;
         font-size: 20.8609px;
         line-height: 100%;
         letter-spacing: -0.02em;
-        color: #000000; }
+        color: #000000;
+        margin: auto ; }
 
 .span1, .span2, .span3, .span4,
  select  {margin-right: 30px ;}
